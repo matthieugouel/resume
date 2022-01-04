@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter aaa
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+
+\usepackage[scale=0.90,bmargin=1.5cm,footnotesep=0.5cm]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage[american]{babel}
+\usepackage[utf8]{inputenc}
+
+\AfterPreamble{\hypersetup{
+    colorlinks = true,
+    urlcolor = [RGB]{36,34,79},
+    linkcolor = gray,
+}}
+
+%-------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%-------------------------------------------------------------------------------------
+
+\firstname{Matthieu} 
+\familyname{Gouel}
+
+\title{Doctoral Student}
+% \address{Born December 10, 1992 - Live in Paris, France}{}
+% \mobile{***REMOVED***}
+\email{matthieu.gouel@protonmail.com}
+\social[github]{matthieugouel}
+
+
+%-------------------------------------------------------------------------------------
+
+\begin{document}
+\vspace*{-15mm}
+\makecvtitle 
+
+%-------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%-------------------------------------------------------------------------------------
+\vspace*{-10mm}
+\section{Experience}
+
+\cventry{2020 - Present}{Doctoral Student}{Sorbonne Université}{Paris, France}{}{
+\vspace*{+1mm}
+Conduct research as a doctoral student in the Network Performance Analysis (NPA) of the LIP6 laboratory and specifically in the Dioptra research group. I'm also affiliated with the LINCS laboratory. My research field is analyzing features of the internet via active and passive measurements. These features can be the IP-level topology of the internet, as well as other levels such as the router-level or the AS-level topology. I also work on geolocation of infrastructure IP addresses. 
+\vspace*{+1mm}
+\begin{itemize}
+\item Development of a multi vantage-points measurement platform for IP-level internet topology discovery using \emph{Python}, \emph{ClickHouse}, \emph{Redis} and AWS/GCP cloud infrastructures
+\item Development of a reinforcement learning algorithm to allocate probing directives more efficiently
+\item Analysis of the dynamics of an IP geolocation database
+\item Co-organizer of LINCS Internet Measurements reading group
+\end{itemize}}
+
+%------------------------------------------------
+
+\vspace*{+2mm}
+\cventry{2019 - 2020}{Research Engineer}{LIP6}{Paris, France}{}{
+\vspace*{+1mm}
+Worked in the Network Performance Analysis (NPA) of the LIP6 laboratory and specifically in the Dioptra research group. Helped in the engineering of ongoing research projects in \emph{Python}, developed and maintained measurement infrastructure in a production environment using \emph{Docker}, \emph{Kubernetes} and GitHub Actions.
+\vspace*{+1mm}
+\begin{itemize}
+\item Participated in ongoing researches about IP-level internet topology IP geolocation and Alias Resolution
+\item Building and maintaining network measurement infrastructure
+\end{itemize}}
+
+%------------------------------------------------
+
+\vspace*{+2mm}
+\cventry{2018 - 2019}{DevOps Engineer}{Société Générale}{Paris, France}{}{ 
+\vspace*{+1mm}
+Worked inside an agile software development team for a global private cloud development project. This team was responsible for network-oriented capabilities of the cloud. I was the lead developer of the team and built APIs in \emph{Python} which communicate with Avi Networks appliances. I also developed and open-sourced a \emph{Python} package to facilitate API end-to-end testing (\href{https://github.com/societe-generale/spintest}{https://github.com/societe-generale/spintest}). 
+\vspace*{+1mm}
+\begin{itemize}
+\item Development of APIs in Python providing SDN capabilities for the internal private cloud
+\item CI/CD of programming projects using Github, Ansible and Jenkins
+\item Organized according to Scrum and SAFe agile methodologies
+\end{itemize}}
+
+%------------------------------------------------
+
+\vspace*{+2mm}
+\cventry{2016 - 2018}{Network-oriented Software Engineer}{Ministry of Armed Forces}{Paris, France}{}{ 
+\vspace*{+1mm}
+Worked in a team managing network infrastructure for Data-Centers and Campus. My main role was to bring development skills to automate network infrastructure deployment and  maintenance in operational conditions. Developed in \emph{Python}, \emph{Go} and \emph{Javascript}. I also participated to networking troubleshooting and on-call duty periods. 
+\vspace*{+1mm}
+\begin{itemize}
+\item Development of network automation software in Data-Center and Campus networks
+\item Deployment with Docker, Kubernetes and Gitlab CI
+\item Network administration and development in production environment
+\end{itemize}}
+
+%------------------------------------------------
+\section{}  % Separator between jobs and internship
+\vspace*{+2mm}
+\cventry{2016}{Network-oriented Software Intern}{Ministry of Armed Forces}{Paris, France}{6 month}{ 
+\vspace*{+1mm}
+Internship at the end of engineering school. The project was to develop a proof-of-concept networking solution to do routing in Data-Centers with BGP on Cisco/Arista hardware. The solution had to be automated using \emph{Python}, \emph{Ansible} and Zero-Touch provisioning. 
+\vspace*{+1mm}
+\begin{itemize}
+\item Automation of a BGP "Top of Rack" solution into Data-Centers
+\end{itemize}}
+
+%------------------------------------------------
+
+\vspace*{+2mm}
+\cventry{2015}{Software Intern}{EBRC}{Luxembourg}{3 month}{ 
+\vspace*{+1mm}
+Internship during the second year of engineering school. The project was to develop a knowledge system to help security operators to keep track of internal procedures. Worked in \emph{Python} and \emph{Javascript}. 
+\vspace*{+1mm}
+\begin{itemize}
+\item Development of a  knowledge database system for security operations in a Security Operation Center 
+\item Integration in a production environment
+\end{itemize}}
+
+%-------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------------
+
+\newpage
+\section{Education}
+
+\cventry{2013--2016}{Master of Science (Engineer), Nancy, France}{TELECOM Nancy}{Telecommunications, Networks and Security}{}{}
+\cventry{2010--2013}{Equiv. BSc, Blaise Pascal High School, Rouen, France}{Higher School Preparatory Classes (CPGE)}{
+Physics, Technology and Engineer Science}{}{}
+
+%-------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%-------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\textbf{IP Geolocation Database Stability and Implications for Network Research}\\
+M Gouel, K Vermeulen, O Fourmaux, T Friedman, R Beverly\\
+Network Traffic Measurement and Analysis Conference (TMA), 2021
+
+\vspace{0.25cm}
+\textbf{Alias Resolution Based on ICMP Rate Limiting}\\
+K. Vermeulen, B. Ljuma, V. Addanki, M. Gouel, O. Fourmaux, T. Friedman, R. Rejaie\\
+Passive and Active Measurement Conference (PAM), 2020
+
+%-------------------------------------------------------------------------------------
+%	TEACHING SECTION
+%-------------------------------------------------------------------------------------
+
+\section{Teaching}
+
+
+\cventry{2020, 2021, 2022}{Master’s degree program}{Networks Architecture}{Sorbonne Univeristé}{Teaching assistant (40h/year)}{}
+\cventry{2020, 2021, 2022}{Master’s degree program}{Internet Measurements}{Sorbonne Univeristé}{Teaching assistant (28h/year)}{}
+\cventry{2020}{Master’s degree program}{Routing in networks}{Sorbonne Univeristé}{Teaching assistant (36h/year)}{}
+
+
+%-------------------------------------------------------------------------------------
+%	OPEN-SOURCE SECTION
+%-------------------------------------------------------------------------------------
+
+\section{Open source}
+
+\faGithub~\href{https://github.com/matthieugouel}{https://github.com/matthieugouel}
+\vspace{+0.25cm}
+
+\textbf{API end-to-end testing}\\
+\href{https://github.com/societe-generale/spintest}{Spintest} (in \emph{Python}): package to easily perform functional scenarios to APIs
+\vspace{+0.25cm}
+
+\textbf{Hobby interpreters}\\
+\href{https://github.com/matthieugouel/gibica}{Gibica} (in \emph{Python}) and \href{https://github.com/matthieugouel/bjorn}{Bjorn} (in \emph{Rust}): implementation of toy languages
+\vspace{0.25cm}
+
+\textbf{Hobby machine learning library}\\
+\href{https://github.com/matthieugouel/alchina}{Alchina} (in \emph{Python}): implementation of classic algorithms like linear regressor/classifier with gradient descent, k-means clustering, PCA, ... 
+
+%-------------------------------------------------------------------------------------
+%	CERTIFICATIONS SECTION
+%-------------------------------------------------------------------------------------
+
+\section{Certifications}
+
+\cventry{2017}{XUDZMGNZVXSK}{Machine Learning}{Coursera}{Stanford University}{}
+%------------------------------------------------
+\cventry{2017 - 2020}{CSCO13183181}{Cisco Certified Network Associate Routing and Switching (CCNA)}{Cisco}{}{}
+%------------------------------------------------
+\cventry{2017 - 2020}{99V21CSNE37310}{Certified Stormshield Network Expert (CSNE)}{Stormshield}{}{}
+%------------------------------------------------
+\cventry{2017 - 2020}{99V21CSNA96935}{Certified Stormshield Network Administrator (CSNA)}{Stormshield}{}{}
+%------------------------------------------------
+
+%-------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%-------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Fluent}{Full professional proficiency}
+\cvitemwithcomment{French}{Native speaker}{Full professional proficiency}
+\end{document}
