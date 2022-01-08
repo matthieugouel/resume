@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter aaa
+% "ModernCV" CV and Cover Letter
 % LaTeX Template
 % Version 1.11 (19/6/14)
 %
@@ -29,9 +29,7 @@
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 
-\usepackage[scale=0.90,bmargin=1.5cm,footnotesep=0.5cm]{geometry} % Reduce document margins
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage[scale=0.90,bmargin=1.5cm,footnotesep=0.5cm]{geometry}
 
 \usepackage[american]{babel}
 \usepackage[utf8]{inputenc}
@@ -41,6 +39,9 @@
     urlcolor = [RGB]{36,34,79},
     linkcolor = gray,
 }}
+
+\definecolor{ultramarine}{RGB}{0,32,96}
+
 
 %-------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
@@ -70,7 +71,7 @@
 
 \cventry{2020 - Present}{Doctoral Student}{Sorbonne Université}{Paris, France}{}{
 \vspace*{+1mm}
-Conduct research as a doctoral student in the Network Performance Analysis (NPA) of the LIP6 laboratory and specifically in the Dioptra research group. I'm also affiliated with the LINCS laboratory. My research field is analyzing features of the internet via active and passive measurements. These features can be the IP-level topology of the internet, as well as other levels such as the router-level or the AS-level topology. I also work on geolocation of infrastructure IP addresses. 
+\textcolor{ultramarine}{Conduct research as a doctoral student in the Network Performance Analysis (NPA) of the LIP6 laboratory and specifically in the Dioptra research group. I'm also affiliated with the LINCS laboratory. My research field is analyzing features of the internet via active and passive measurements. These features can be the IP-level topology of the internet, as well as other levels such as the router-level or the AS-level topology. I also work on geolocation of infrastructure IP addresses.}
 \vspace*{+1mm}
 \begin{itemize}
 \item Development of a multi vantage-points measurement platform for IP-level internet topology discovery using \emph{Python}, \emph{ClickHouse}, \emph{Redis} and AWS/GCP cloud infrastructures
@@ -84,7 +85,7 @@ Conduct research as a doctoral student in the Network Performance Analysis (NPA)
 \vspace*{+2mm}
 \cventry{2019 - 2020}{Research Engineer}{LIP6}{Paris, France}{}{
 \vspace*{+1mm}
-Worked in the Network Performance Analysis (NPA) of the LIP6 laboratory and specifically in the Dioptra research group. Helped in the engineering of ongoing research projects in \emph{Python}, developed and maintained measurement infrastructure in a production environment using \emph{Docker}, \emph{Kubernetes} and GitHub Actions.
+\textcolor{ultramarine}{Worked in the Network Performance Analysis (NPA) of the LIP6 laboratory and specifically in the Dioptra research group. Helped in the engineering of ongoing research projects in \emph{Python}, developed and maintained measurement infrastructure in a production environment using \emph{Docker}, \emph{Kubernetes} and GitHub Actions.}
 \vspace*{+1mm}
 \begin{itemize}
 \item Participated in ongoing researches about IP-level internet topology, IP geolocation and Alias Resolution
@@ -96,7 +97,7 @@ Worked in the Network Performance Analysis (NPA) of the LIP6 laboratory and spec
 \vspace*{+2mm}
 \cventry{2018 - 2019}{DevOps Engineer}{Société Générale}{Paris, France}{}{ 
 \vspace*{+1mm}
-Worked inside an agile software development team for a global private cloud development project. This team was responsible for network-oriented capabilities of the cloud. I was the lead developer of the team and built APIs in \emph{Python} which communicate with Avi Networks appliances. I also developed and open-sourced a \emph{Python} package to facilitate API end-to-end testing (\href{https://github.com/societe-generale/spintest}{https://github.com/societe-generale/spintest}). 
+\textcolor{ultramarine}{Worked inside an agile software development team for a global private cloud development project. This team was responsible for network-oriented capabilities of the cloud. I was the lead developer of the team and built APIs in \emph{Python} which communicate with Avi Networks appliances. I also developed and open-sourced a \emph{Python} package to facilitate API end-to-end testing.}
 \vspace*{+1mm}
 \begin{itemize}
 \item Development of APIs in Python providing SDN capabilities for the internal private cloud
@@ -109,7 +110,7 @@ Worked inside an agile software development team for a global private cloud deve
 \vspace*{+2mm}
 \cventry{2016 - 2018}{Network-oriented Software Engineer}{Ministry of Armed Forces}{Paris, France}{}{ 
 \vspace*{+1mm}
-Worked in a team managing network infrastructure for Data-Centers and Campus. My main role was to bring development skills to automate network infrastructure deployment and  maintenance in operational conditions. Developed in \emph{Python}, \emph{Go} and \emph{Javascript}. I also participated to networking troubleshooting and on-call duty periods. 
+\textcolor{ultramarine}{Worked in a team managing network infrastructure for Data-Centers and Campus. My main role was to bring development skills to automate network infrastructure deployment and  maintenance in operational conditions. Developed in \emph{Python}, \emph{Go} and \emph{Javascript}. I also participated to networking troubleshooting and on-call duty periods.}
 \vspace*{+1mm}
 \begin{itemize}
 \item Development of network automation software in Data-Center and Campus networks
@@ -118,11 +119,13 @@ Worked in a team managing network infrastructure for Data-Centers and Campus. My
 \end{itemize}}
 
 %------------------------------------------------
-\section{}  % Separator between jobs and internship
+\section{}  % Separator between jobs and internships
+%------------------------------------------------
+
 \vspace*{+2mm}
 \cventry{2016}{Network-oriented Software Intern}{Ministry of Armed Forces}{Paris, France}{6 month}{ 
 \vspace*{+1mm}
-Internship at the end of engineering school. The project was to develop a proof-of-concept networking solution to do routing in Data-Centers with BGP on Cisco/Arista hardware. The solution had to be automated using \emph{Python}, \emph{Ansible} and Zero-Touch provisioning. 
+\textcolor{ultramarine}{Internship at the end of engineering school. The project was to develop a proof-of-concept networking solution to do routing in Data-Centers with BGP on Cisco/Arista hardware. The solution had to be automated using \emph{Python}, \emph{Ansible} and Zero-Touch provisioning.}
 \vspace*{+1mm}
 \begin{itemize}
 \item Automation of a BGP "Top of Rack" solution into Data-Centers
@@ -133,7 +136,7 @@ Internship at the end of engineering school. The project was to develop a proof-
 \vspace*{+2mm}
 \cventry{2015}{Software Intern}{EBRC}{Luxembourg}{3 month}{ 
 \vspace*{+1mm}
-Internship during the second year of engineering school. The project was to develop a knowledge system to help security operators to keep track of internal procedures. Worked in \emph{Python} and \emph{Javascript}. 
+\textcolor{ultramarine}{Internship during the second year of engineering school. The project was to develop a knowledge system to help security operators to keep track of internal procedures. Worked in \emph{Python} and \emph{Javascript}.}
 \vspace*{+1mm}
 \begin{itemize}
 \item Development of a  knowledge database system for security operations in a Security Operation Center 
