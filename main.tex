@@ -50,7 +50,7 @@
 \firstname{Matthieu}
 \familyname{Gouel}
 
-\title{Ph.D. Student}
+\title{Researcher}
 % \address{}{}
 % \mobile{}
 \email{matthieu.gouel@protonmail.com}
@@ -60,31 +60,36 @@
 %-------------------------------------------------------------------------------------
 
 \begin{document}
-\vspace*{-15mm}
+% \vspace*{-15mm}
 \makecvtitle
 
 %-------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %-------------------------------------------------------------------------------------
-\vspace*{-10mm}
+% \vspace*{-10mm}
 \section{Experience}
 
-\cventry{2020 - Present}{Ph.D. Student}{Sorbonne Université}{Paris, France}{}{
+\vspace*{+2mm}
+\cventry{2023 - Pesent}{Research Fellow}{Cloudflare}{Paris, France}{}{
 \vspace*{+1mm}
 \textcolor{ultramarine}{
-    Conduct research as a Ph.D. student in the Network Performance Analysis (NPA) team of the LIP6 laboratory under the direction of Dr. Olivier Fourmaux and Dr. Timur Friedman.
-    Also affiliated with the LINCS laboratory.
-    My research field is collecting and analyzing the features of the internet via active and passive measurements.
-    These features can be the IP-level topology of the internet, as well as other levels such as the router-level or the AS-level topology.
-    I also work on geolocation of infrastructure IP addresses.
+    Embarking on a three-month program with Cloudflare's research team.
+    Analyzing network measurement data to enhance the performance and reliability of Cloudflare's products.
+}
+\vspace*{+1mm}}
+
+\cventry{2020 - 2023}{Ph.D. Student}{Sorbonne Université}{Paris, France}{}{
+\vspace*{+1mm}
+\textcolor{ultramarine}{
+    Ph.D. student in the Network Performance Analysis (NPA) team at the LIP6 lab, also affiliated with LINCS lab, under the guidance of Dr. Olivier Fourmaux and Dr. Timur Friedman. My research focused on analyzing internet features through active and passive measurements. This included studying the IP-level, router-level, and AS-level topology, as well as geolocating infrastructure IP addresses.
 }
 \vspace*{+1mm}
 \begin{itemize}
 \item Development of a multi vantage-points measurement platform for IP-level internet topology discovery using \textbf{Python}, \textbf{ClickHouse}, \textbf{Redis}, \textbf{JavaScript} and \textbf{AWS/GCP} cloud infrastructures.
 \item Development of a \textbf{reinforcement learning algorithm} to allocate probing directives more efficiently.
-\item Development of a framework for \textbf{large-scale} traceroute processing.
+\item Development of a framework for large-scale traceroute processing.
 \item Analysis of the dynamics of an IP geolocation database.
-\item Two months research visit at Naval Postgraduate School (Monterey, CA) to study internet topology dynamics.
+\item Study of \textbf{topology dynamics} and \textbf{measurement ethics} at Naval Postgraduate School (Monterey, CA).
 \item Co-organizer of LINCS Internet Measurements reading group.
 \end{itemize}}
 
@@ -102,7 +107,7 @@
 \vspace*{+1mm}
 \begin{itemize}
 \item Participated in ongoing researches about IP-level internet topology, IP geolocation and Alias Resolution.
-\item Building and maintaining network measurement infrastructure.
+\item Building and maintaining the network measurement infrastructure.
 \end{itemize}}
 
 %------------------------------------------------
@@ -126,7 +131,7 @@
 %------------------------------------------------
 
 \vspace*{+2mm}
-\cventry{2016 - 2018}{Network-oriented Software Engineer}{Ministry of Armed Forces}{Paris, France}{}{
+\cventry{2016 - 2018}{Network-oriented Software Engineer}{French Ministry for Armed Forces}{Paris, France}{}{
 \vspace*{+1mm}
 \textcolor{ultramarine}{
     Worked in a team managing network infrastructure for Data-Centers and Campus.
@@ -141,11 +146,12 @@
 \end{itemize}}
 
 %------------------------------------------------
+\newpage
 \section{}  % Separator between jobs and internships
 %------------------------------------------------
 
 \vspace*{+2mm}
-\cventry{2016}{Network-oriented Software Intern}{Ministry of Armed Forces}{Paris, France}{6 month}{
+\cventry{2016}{Network-oriented Software Intern}{French Ministry for Armed Forces}{Paris, France}{6 month}{
 \vspace*{+1mm}
 \textcolor{ultramarine}{
     Internship at the end of the engineering school.
@@ -159,7 +165,7 @@
 
 %------------------------------------------------
 
-\vspace*{+2mm}
+
 \cventry{2015}{Software Intern}{EBRC}{Luxembourg}{3 month}{
 \vspace*{+1mm}
 \textcolor{ultramarine}{
@@ -177,12 +183,13 @@
 %	EDUCATION SECTION
 %-------------------------------------------------------------------------------------
 
-\newpage
+% \newpage
 \section{Education}
 
-\cventry{2013--2016}{\href{https://en.wikipedia.org/wiki/Grande_école}{Engineering degree} (Diplôme d'ingénieur), Nancy, France}{\href{https://telecomnancy.univ-lorraine.fr/?lang=en}{TELECOM Nancy}}{Telecommunications, Networks and Security}{}{}
-\cventry{2010--2013}{Blaise Pascal School, Rouen, France}{\href{https://en.wikipedia.org/wiki/Classe_préparatoire_aux_grandes_écoles}{Classes préparatoires aux grandes écoles}}{
-Physics, Technology and Engineer Science}{}{}
+\cventry{2020--2023}{\href{https://www.sorbonne-universite.fr/en}{Sorbonne Université}, Paris, France}{Ph.D.}{Computer Science}{}{}
+\cventry{2013--2016}{\href{https://telecomnancy.univ-lorraine.fr/?lang=en}{Télécom Nancy}, Nancy, France}{\href{https://en.wikipedia.org/wiki/Grande_école}{Masters degree} (Diplôme d'ingénieur)}{Networks and Security}{}{}
+\cventry{2010--2013}{Blaise Pascal School, Rouen, France}{\href{https://en.wikipedia.org/wiki/Classe_préparatoire_aux_grandes_écoles}{Preparatory Classes}}{
+Physics, Technology and Engineering Science}{}{}
 
 %-------------------------------------------------------------------------------------
 %	PUBLICATION SECTION
@@ -190,36 +197,51 @@ Physics, Technology and Engineer Science}{}{}
 
 \section{Publications}
 
-\href{https://hal.archives-ouvertes.fr/hal-03656974/document}{\textbf{Zeph \& Iris cartographient l’internet}}\\
+\href{https://hal.science/hal-04215113/document}{\textbf{Replication: Towards a Publicly Available Internet scale IP Geolocation Dataset}}\\
+O Darwich, H Rimlinger, M Dreyfus, M Gouel, K Vermeulen\\
+ACM Internet Measurement Conference (IMC), 2023
+
+\vspace{0.25cm}
+\href{https://hal.science/hal-04218315v1/document}{\textbf{Poster: Towards a Publicly Available Framework to Process Traceroutes with MetaTrace}}\\
+M Gouel, O Darwich, M Mouchet, K Vermeulen\\
+ACM Internet Measurement Conference (IMC), 2023
+
+\vspace{0.25cm}
+\href{https://hal.science/hal-04090683v1/document}{\textbf{Vers des mesures haute fréquence d'internet plus éthiques}}\\
+M Gouel, K Vermeulen, H Rimlinger, O Fourmaux, T Friedman\\
+CoRes, 2023
+
+\vspace{0.25cm}
+\href{https://hal.science/hal-03656974/document}{\textbf{Zeph \& Iris cartographient l’internet}}\\
 M Gouel, K Vermeulen, M Mouchet, J P Rohrer, O Fourmaux, T Friedman\\
 CoRes, 2022
 
 \vspace{0.25cm}
-\href{https://hal.archives-ouvertes.fr/hal-03597580/document}{\textbf{Zeph \& Iris map the internet: A resilient reinforcement learning approach to distributed IP route tracing}}\\
+\href{https://hal.science/hal-03597580/document}{\textbf{Zeph \& Iris map the internet: A resilient reinforcement learning approach to distributed IP route tracing}}\\
 M Gouel, K Vermeulen, M Mouchet, J P Rohrer, O Fourmaux, T Friedman\\
-ACM SIGCOMM Computer Communication Review, 2022
+ACM SIGCOMM Computer Communication Review (CCR), 2022
 
 \vspace{0.25cm}
 \href{https://dl.ifip.org/db/conf/tma/tma2021/tma2021-paper2.pdf}{\textbf{IP Geolocation Database Stability and Implications for Network Research}}\\
 M Gouel, K Vermeulen, O Fourmaux, T Friedman, R Beverly\\
-IFIP Network Traffic Measurement and Analysis Conference (TMA), 2021
+Network Traffic Measurement and Analysis Conference (TMA), 2021
 
 \vspace{0.25cm}
 \href{https://arxiv.org/pdf/2002.00252.pdf}{\textbf{Alias Resolution Based on ICMP Rate Limiting}} \\
-K. Vermeulen, B. Ljuma, V. Addanki, M. Gouel, O. Fourmaux, T. Friedman, R. Rejaie\\
-Springer Passive and Active Measurement Conference (PAM), 2020
+K Vermeulen, B Ljuma, V Addanki, M Gouel, O Fourmaux, T Friedman, R Rejaie\\
+Passive and Active Measurement Conference (PAM), 2020
 
 %-------------------------------------------------------------------------------------
 %	TEACHING SECTION
 %-------------------------------------------------------------------------------------
 
+\newpage
 \section{Teaching}
 
-\cventry{2019, 2020, 2021, 2022}{Master degree program}{Networks Architecture}{Sorbonne Univeristé}{Teaching assistant (40h/year)}{}
-\cventry{2019, 2020, 2021}{Master degree program}{Internet Measurements}{Sorbonne Univeristé}{Teaching assistant (28h/year)}{}
-\cventry{2022}{Licence degree program}{Programming elements}{Sorbonne Univeristé}{Teaching assistant (20h/year)}{}
-\cventry{2019}{Licence degree program}{Routing in networks}{Sorbonne Univeristé}{Teaching assistant (36h/year)}{}
-
+\cventry{2019, 2020, 2021, 2022}{Master's degree program}{Networks Architecture}{Sorbonne Univeristé}{Teaching assistant (40h/year)}{}
+\cventry{2019, 2020, 2021}{Master's degree program}{Internet Measurements}{Sorbonne Univeristé}{Teaching assistant (28h/year)}{}
+\cventry{2019}{Master's degree program}{Routing in networks}{Sorbonne Univeristé}{Teaching assistant (36h/year)}{}
+\cventry{2022}{Licentiate degree program}{Programming elements}{Sorbonne Univeristé}{Teaching assistant (20h/year)}{}
 
 %-------------------------------------------------------------------------------------
 %	OPEN-SOURCE SECTION
@@ -230,16 +252,16 @@ Springer Passive and Active Measurement Conference (PAM), 2020
 \faGithub~\href{https://github.com/matthieugouel}{https://github.com/matthieugouel}
 
 \vspace{+0.25cm}
-\textbf{IP-level internet measurement platform}\\
+\textbf{High-speed internet-scale measurement platform}\\
 \href{https://github.com/dioptra-io/iris}{Iris} (in \emph{Python}): allow to perform internet-scale multi vantage-points IP-level measurements (accessible \href{https://iris.dioptra.io/#/}{here}).
 
 \vspace{+0.25cm}
 \textbf{Reinforcement learning algorithm}\\
-\href{https://github.com/dioptra-io/zeph}{Zeph} (in \emph{Python}): Maximize the coverage IP-level topology measurements.
+\href{https://github.com/dioptra-io/zeph}{Zeph} (in \emph{Python}): maximize the coverage IP-level topology measurements.
 
 \vspace{+0.25cm}
 \textbf{API end-to-end testing}\\
-\href{https://github.com/societe-generale/spintest}{Spintest} (in \emph{Python}): package to easily perform functional scenarios to APIs.
+\href{https://github.com/societe-generale/spintest}{Spintest} (in \emph{Python}): package to easily perform functional scenarios to test APIs.
 
 \vspace{+0.25cm}
 \textbf{Hobby projects}\\
